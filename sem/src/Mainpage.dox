@@ -1,0 +1,18 @@
+/**
+*\mainpage About the project\n
+*This project realizes calculator with unlimited number of digits before and after the decimal point. Digits are saved in strings.\n
+*Calculator can process expressions of addition, subtraction and multiplication with arbitrarily nested brackets. Also has large input and output options.\n
+*\n
+*The program consists of 5 base classes and structure:\n
+*CBigDouble (realizes unlimited digit number and all its operations)\n
+*CReader (realizes reading expressions from standard input and files)\n
+* - its subclass CReaderWrite (realizes writing expressions and results into the files)\n
+*.
+*CParser (parses expressions and then calculate results)\n
+* - its substructure TNode (n-nary tree that realizes parsed expression)\n
+*.
+*CClassicInput (using CReader and CReaderWrite, realizes text user interface)\n
+*\n
+*Author: Radim Janda\n
+*The program was created as my semestral project in 2014\n
+*/
